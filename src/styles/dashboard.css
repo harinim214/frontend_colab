@@ -1,0 +1,38 @@
+.dashboard {
+  padding: 40px;
+  background: #f8f9fc;
+  min-height: 100vh;
+}
+
+.dashboard h2 {
+  margin-bottom: 20px;
+}
+
+.team-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+}
+
+.dashboard input {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.dashboard button {
+  padding: 10px 15px;
+  background: #1cc88a;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}

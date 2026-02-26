@@ -1,0 +1,28 @@
+.footer {
+  height: 60px;
+  background: #0f172a;
+  color: #cbd5e1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  font-size: 14px;
+  margin-top: auto;
+}
+
+.footer-left {
+  font-weight: 500;
+}
+
+.footer-right {
+  opacity: 0.8;
+}
+
+.footer-right span {
+  transition: 0.3s;
+}
+
+.footer-right span:hover {
+  opacity: 1;
+  color: white;
+}

@@ -1,0 +1,36 @@
+.file-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.file-card a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #4e73df;
+  text-decoration: none;
+}
+
+.file-card button {
+  background: #e74a3b;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.activity-panel {
+  margin-top: 30px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.activity-item {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}

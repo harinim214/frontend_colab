@@ -1,0 +1,49 @@
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #4e73df, #1cc88a);
+}
+
+.auth-page h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.auth-page form {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 320px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-page input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.auth-page button {
+  padding: 10px;
+  background: #4e73df;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.auth-page button:hover {
+  background: #2e59d9;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}

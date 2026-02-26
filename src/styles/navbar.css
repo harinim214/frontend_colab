@@ -1,0 +1,61 @@
+.navbar {
+  height: 60px;
+  background: #0f172a;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 30px;
+  position: relative;   /* ✅ IMPORTANT */
+  z-index: 1000;
+}
+
+.navbar-user {
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+  .avatar {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+}
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.username {
+  font-weight: 500;
+}
+
+.dropdown {
+  position: absolute;
+  top: 55px;
+  right: 0;
+  background: white;
+  width: 160px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  overflow: hidden;
+  z-index: 9999;   /* ✅ IMPORTANT */
+}
+
+.dropdown div {
+  padding: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+  color: #111827;   /* ✅ ADD THIS */
+  font-weight: 500; /* optional */
+}
+
+.dropdown div:hover {
+  background: #f3f4f6;
+  color: #4f46e5;   /* optional premium effect */
+}

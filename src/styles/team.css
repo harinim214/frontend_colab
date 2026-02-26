@@ -1,0 +1,135 @@
+.team-page {
+  padding: 30px;
+}
+
+/* ===== HEADER ===== */
+
+.team-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.role-badge {
+  background: #e0e7ff;
+  color: #3730a3;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.delete-btn {
+  background: #ef4444;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+/* ===== ANALYTICS ===== */
+
+.analytics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.analytics-card {
+  background: white;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.analytics-card h4 {
+  margin-bottom: 10px;
+  color: #6b7280;
+}
+
+.analytics-card p {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* ===== INVITE ===== */
+
+.invite-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.invite-section input {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  flex: 1;
+}
+
+.invite-section button {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* ===== FILES ===== */
+
+.file-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+/* ===== ACTIVITY ===== */
+
+.activity-section {
+  margin-top: 40px;
+}
+.analytics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.analytics-card {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.analytics-card.clickable {
+  cursor: pointer;
+}
+
+.analytics-card.clickable:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+}
+
+.detail-section {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.detail-item {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+}
